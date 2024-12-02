@@ -47,7 +47,7 @@
 
   } 
 
-  :root.theme-light{
+  :root.theme-light {
     --main-font:'Inter-Variable';
     --accent-font:'PressStart2P';
     --font-weight-title: 700;
