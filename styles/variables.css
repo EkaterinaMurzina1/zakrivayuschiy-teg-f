@@ -1,22 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
-
 :root {
-  --main-font:'Inter-Variable';
-  --accent-font:'PressStart2P';
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P";
   --font-weight-title: 700;
-  --font-weight-text:400;
-  --main-color:#000000;
-  --bg-color:#FFFFFF;
-  --bg-image:
-  repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
-  repeating-linear-gradient(to bottom,#d3d3d3, #d3d3d3 2px, transparent 2px,transparent 4px),
-  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
-  --heart-contour-color:#000000;
+  --font-weight-text: 400;
+  --main-color: #000000;
+  --bg-color: #ffffff;
+  --bg-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --heart-contour-color: #000000;
   --heart-sparks-color: red;
-  --heart-main-color:red;
-  --heart-core-color:#000000;
-  --label-color-stroke:#FFFFFF;
-  --button-text-color:#FFFFFF;
-
+  --heart-main-color: red;
+  --heart-core-color: #000000;
+  --label-color-stroke: #ffffff;
+  --button-text-color: #ffffff;
 }

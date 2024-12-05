@@ -14,117 +14,92 @@
 */
 
 .like-icon .contour {
-   fill: var(--heart-contour-color); 
-   transition: fill 0.1s linear;
+  fill: var(--heart-contour-color);
+  transition: fill 0.1s linear;
+}
 
-} 
- 
 .like-icon .core {
-   transition: fill 0.3s linear;
-   fill:transparent;
+  transition: fill 0.3s linear;
+  fill: transparent;
+}
 
-} 
- 
-.like-icon .main-body { 
-   fill: transparent; 
-   transition: fill 0.3s linear 0.05s;
-
+.like-icon .main-body {
+  fill: transparent;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon .heart {
-   transform-origin: center;
-   
+  transform-origin: center;
 }
- 
+
 .like-icon:hover .core {
-   fill:var(--heart-core-color);
-  
+  fill: var(--heart-core-color);
 }
-  
+
 .like-icon:hover .main-body {
-   fill: var(--main-color);
-   transition: fill 0.3s linear 0.05s;
-
+  fill: var(--main-color);
+  transition: fill 0.3s linear 0.05s;
 }
-  
-  
+
 .like-icon:active .main-body {
-   fill: var(--heart-main-color);
-   transition: fill 0.3s linear 0.05s;
-
+  fill: var(--heart-main-color);
+  transition: fill 0.3s linear 0.05s;
 }
-  
+
 .like-icon:active .core {
-   fill: var( --heart-main-color);
-   transition: fill 0.3s linear;
-    
+  fill: var(--heart-main-color);
+  transition: fill 0.3s linear;
 }
-  
-.like-icon.is-liked .core {
-   fill: var( --heart-main-color);
-   transition: fill 0.3s linear;
 
+.like-icon.is-liked .core {
+  fill: var(--heart-main-color);
+  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .main-body {
-   fill: var( --heart-main-color);
-   transition: fill 0.3s linear 0.05s;
-
+  fill: var(--heart-main-color);
+  transition: fill 0.3s linear 0.05s;
 }
-  
+
 .like-icon.is-liked .contour {
-   fill: var(--heart-main-color);
-   transition: fill 0.3s linear 0.06s;
-
+  fill: var(--heart-main-color);
+  transition: fill 0.3s linear 0.06s;
 }
-  
+
 .like-icon.is-liked .heart {
-   animation: pulse 0.3s ease-in 0.1s 1 alternate;
-   
-}
-  
-.like-icon.is-liked .sparks {
- animation: show  0.3s ease-in 0.3s 1 alternate;
-    
+  animation: pulse 0.3s ease-in 0.1s 1 alternate;
 }
 
-  
+.like-icon.is-liked .sparks {
+  animation: show 0.3s ease-in 0.3s 1 alternate;
+}
+
 @keyframes pulse {
   0% {
-   transform: scale(1);
-
+    transform: scale(1);
   }
 
   100% {
-   transform: scale(1.5);
-
+    transform: scale(1.5);
   }
-  
 }
-  
+
 @keyframes show {
   0% {
-   opacity: 0;
-
+    opacity: 0;
   }
 
   100% {
-   opacity: 100%;
-
+    opacity: 100%;
   }
-
 }
 
 @keyframes move {
   0% {
-   transform: translate(0); 
-    
-   }
+    transform: translate(0);
+  }
 
   100% {
-   transform: translate(4px);
-
+    transform: translate(4px);
   }
-  
 }
-  
