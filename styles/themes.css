@@ -7,9 +7,7 @@
 
 
 
-:root.theme-dark {
-  --main-font:'Inter-Variable';
-  --accent-font:'PressStart2P';    
+:root.theme-dark {   
   --font-weight-title: 785;
   --font-weight-text:465;
   --main-color:#00CC14;
@@ -27,9 +25,7 @@
 }  
 
 @media (prefers-color-scheme: dark) {
-  :root {
-      --main-font:'Inter-Variable';
-      --accent-font:'PressStart2P';    
+  :root {   
       --font-weight-title: 785;
       --font-weight-text:465;
       --main-color:#00CC14;
@@ -48,8 +44,6 @@
   } 
 
   :root.theme-light {
-    --main-font:'Inter-Variable';
-    --accent-font:'PressStart2P';
     --font-weight-title: 700;
     --font-weight-text:400;
     --main-color:#000000;
