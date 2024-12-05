@@ -390,11 +390,7 @@
   .cards {
     max-width: clamp(23.1875rem, 20.7356rem + 10.4615vw, 25.3125rem);
   }
-
-  .button__dialog {
-    padding: 15.5px 18.5px;
-  }
-
+  
   .popup {
     max-width: 341px;
     padding: 28px 40px;
